@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App - JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="app-title">To-Do Application</h1>
+            <button onclick="clearTasks()">Clear All Tasks</button>
+        </nav>
+    </header>
+    <div class="app-section">
+        <div class="app-box">
+            <input type="text" id="taskInput" placeholder="Add a new task">
+            <button id="addBtn">Add Task</button>
+            <ul id="todo-list">
+                <!-- Tasks will be dynamically added here -->
+            </ul>
+            <!-- Error Modal -->
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
